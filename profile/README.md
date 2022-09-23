@@ -53,4 +53,4 @@ RDS
 ECS(Fargate)
 ```
 
-![infra](スクリーンショット 2022-09-23 14.35.16.png)
+![infra](../statics/infra_image.png)
