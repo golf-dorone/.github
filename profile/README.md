@@ -53,4 +53,4 @@ RDS
 ECS(Fargate)
 ```
 
-![infra](../statics/infra_image.png)
+![infra](profile/statics/infra_image.png)
