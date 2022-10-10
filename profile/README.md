@@ -16,7 +16,8 @@
 - ゴルフ場の各ホールごとの特徴や詳細を上空からの映像と詳細コメント付きで紹介する(プレイヤー視点で)
 
 ### サービスを作った背景
-ドローン撮影の免許を取得した友人が、ドローンを使って撮影した映像や画像を紹介する独自のサービスを作りたいという依頼がありました。そこでドローンで撮影した映像を魅力的に紹介できるアプリケーションを作成することにしました。まずは最低限の機能でリリースし、ビジネス設計をしながら必要な機能を順次開発していきます。
+ドローン撮影の免許を取得した友人が、ドローンを使って撮影した映像や画像を紹介する独自のサービスを作りたいという依頼がありました。そこでドローンで撮影した映像を魅力的に紹介できるアプリケーションを作成することにしました。また番組制作経験のある友人がドローン撮影事業以外にも仕事を受け付けられるようなお問合せ機能も作成しました。
+まずは最低限の機能でリリースし、友人とビジネス設計をしながら必要な機能を順次開発していきます。
 
 ### 現在の機能
 | ページ | 機能 | 対応状況 |
@@ -42,16 +43,28 @@
 
 ### 🌐 URL
 
-- 本番環境：https://web.golf-dorone.com/customer
+- 本番環境：
+
+```
+customer(public)
+https://web.golf-dorone.com/customer
+```
+
+```
+admin(private)
+https://web.golf-dorone.com/auth/signin
+```
+
 - ローカル環境セットアップ方法
+
 ```
 FE:
-git clone
+git clone git@github.com:golf-dorone/golf_web.git
 yarn install
 yarn start
 
 BE:
-git clone
+git clone git@github.com:golf-dorone/golf_api.git
 bundle install
 rails db:migrate
 rais s
