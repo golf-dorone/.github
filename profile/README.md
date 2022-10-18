@@ -100,9 +100,10 @@ RDS
 ECS(Fargate)
 ```
 
-![infra](profile/statics/infra_image.png)
+<img width="619" alt="スクリーンショット 2022-10-18 10 57 37" src="https://user-images.githubusercontent.com/69895997/196317805-51524ee1-46f6-44f2-8e47-ba74c22ddd69.png">
 
 
-- ER図
+
+- ER図(作成中)
 <img width="796" alt="スクリーンショット 2022-10-18 10 54 08" src="https://user-images.githubusercontent.com/69895997/196317124-62f7a6fa-9ec7-48e9-a3b7-b13e0ef4d0c3.png">
 
