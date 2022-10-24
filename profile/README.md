@@ -44,7 +44,6 @@
 ### 🌐 URL
 
 - 本番環境：
-
 ```
 customer(public)
 https://web.golf-dorone.com/customer
@@ -104,6 +103,6 @@ ECS(Fargate)
 
 
 
-- ER図(作成中)
+- ER図
 <img width="796" alt="スクリーンショット 2022-10-18 10 54 08" src="https://user-images.githubusercontent.com/69895997/196317124-62f7a6fa-9ec7-48e9-a3b7-b13e0ef4d0c3.png">
 
